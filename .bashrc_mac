@@ -1,3 +1,6 @@
 # vim ~/.bashrc_mac
 # Mac specific commands
 alias m_install='brew install '
+
+
+alias m_cd_soft_dir='cd ~/Documents/softwares/'
