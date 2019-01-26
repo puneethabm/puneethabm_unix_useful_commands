@@ -1,7 +1,8 @@
 # vim ~/.bashrc_generic
 # Reference: https://gist.github.com/granthenke/6272026
 # Generic Aliases
-alias ll='ls -latr'                                          # List all file in long list format by modification time
+alias ll='ls -la'                                         # List all file in long list
+alias llt='ls -latr'                                         # List all file in long list format by modification time
 alias ..='cd ..'                                             # Go up one directory
 alias ...='cd ../..'                                         # Go up two directories
 alias ....='cd ../../..'                                     # Go up three directories
@@ -11,3 +12,6 @@ alias k='clear'                                              # Clear Screen
 alias cls='clear'                                            # Clear Screen
 alias _="sudo"                                               # Execute with sudo
 alias q='exit'                                               # Logout                                            # Logout
+
+
+alias du_reverse='du -h * | sort -shr'
