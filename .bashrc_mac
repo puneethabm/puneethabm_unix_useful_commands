@@ -1,0 +1,3 @@
+# vim ~/.bashrc_mac
+# Mac specific commands
+alias m_install='brew install '
