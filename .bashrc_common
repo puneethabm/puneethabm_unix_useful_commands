@@ -1,2 +1,12 @@
-# vim ~/.bashrc_common
-alias ll='ls -la'
+# vim ~/.bashrc_generic
+# Generic Aliases
+alias ll='ls -latr'                                          # List all file in long list format by modification time
+alias ..='cd ..'                                             # Go up one directory
+alias ...='cd ../..'                                         # Go up two directories
+alias ....='cd ../../..'                                     # Go up three directories
+alias -- -='cd -'                                            # Go back
+alias c='clear'                                              # Clear Screen
+alias k='clear'                                              # Clear Screen
+alias cls='clear'                                            # Clear Screen
+alias _="sudo"                                               # Execute with sudo
+alias q='exit'                                               # Logout                                            # Logout
