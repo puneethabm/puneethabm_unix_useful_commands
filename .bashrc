@@ -6,3 +6,8 @@ unalias -a
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
+
+## Common commands
+if [ -f ~/.bashrc_common ]; then
+  . ~/.bashrc_common
+fi
