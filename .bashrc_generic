@@ -19,3 +19,4 @@ alias src='source ~/.bashrc'
 
 alias jv='java -version'                                    # Check java version
 
+alias user='echo $USER'                                     # Get current user
