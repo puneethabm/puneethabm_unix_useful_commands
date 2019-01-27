@@ -6,3 +6,12 @@ Useful unix commands files - bashrc
 ```
 source ~/.bashrc
 ```
+
+# Install below basic packages in MAC
+```
+1. Install Homebrew: https://brew.sh/
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+2. Install basic packages
+brew install bzip2 wget vim md5sha1sum
+```
