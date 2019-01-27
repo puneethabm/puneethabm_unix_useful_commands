@@ -13,5 +13,5 @@ alias cls='clear'                                            # Clear Screen
 alias _="sudo"                                               # Execute with sudo
 alias q='exit'                                               # Logout                                            # Logout
 
-
-alias du_reverse='du -h * | sort -shr'
+alias du_sort_asc='du -h * | sort -sh'
+alias du_sort_desc='du -h * | sort -shr'
