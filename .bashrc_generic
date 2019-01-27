@@ -1,5 +1,8 @@
 # vim ~/.bashrc_generic
 
+alias a='alias'                                             # List all aliases
+alias ua='unalias -a'                                       # Unalias everything
+
 # Generic Aliases
 # Reference: https://gist.github.com/granthenke/6272026
 alias ll='ls -la'                                            # List all file in long list
@@ -15,4 +18,4 @@ alias du_sort_desc='du -h * | sort -shr'
 alias src='source ~/.bashrc'
 
 alias jv='java -version'                                    # Check java version
-alias a='alias'                                             # List all aliases
+
