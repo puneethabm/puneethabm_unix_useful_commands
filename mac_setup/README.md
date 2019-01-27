@@ -4,7 +4,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-2. Install python 3.6:
+2. Install python 3.6 (https://repo.continuum.io/archive/):
 ```
 # All anaconda packages can be found here: https://repo.continuum.io/archive/
 
