@@ -2,17 +2,12 @@
 
 # Generic Aliases
 # Reference: https://gist.github.com/granthenke/6272026
-alias ll='ls -la'                                         # List all file in long list
+alias ll='ls -la'                                            # List all file in long list
 alias llt='ls -latr'                                         # List all file in long list format by modification time
-alias ..='cd ..'                                             # Go up one directory
-alias ...='cd ../..'                                         # Go up two directories
-alias ....='cd ../../..'                                     # Go up three directories
-alias -- -='cd -'                                            # Go back
 alias c='clear'                                              # Clear Screen
 alias k='clear'                                              # Clear Screen
 alias cls='clear'                                            # Clear Screen
-alias _="sudo"                                               # Execute with sudo
-alias q='exit'                                               # Logout                                            # Logout
+alias q='exit'                                               # Logout
 
-alias du_sort_asc='du -h * | sort -sh'
+alias du_sort_asc='du -h * | sort -sh'                       
 alias du_sort_desc='du -h * | sort -shr'
