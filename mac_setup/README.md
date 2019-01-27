@@ -37,3 +37,14 @@ Do you wish to proceed with the installation of Microsoft VSCode? [yes|no]
 >>> yes
 
 ```
+
+# Install JDK
+```
+# Download jdk 8:
+# from https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+# Set JAVA_HOME
+# Instructions in the file ~/.bashrc_mac
+
+
+```
