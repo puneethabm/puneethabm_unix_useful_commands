@@ -1,6 +1,7 @@
 # vim ~/.bashrc_generic
-# Reference: https://gist.github.com/granthenke/6272026
+
 # Generic Aliases
+# Reference: https://gist.github.com/granthenke/6272026
 alias ll='ls -la'                                         # List all file in long list
 alias llt='ls -latr'                                         # List all file in long list format by modification time
 alias ..='cd ..'                                             # Go up one directory
