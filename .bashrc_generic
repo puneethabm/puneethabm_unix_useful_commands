@@ -15,3 +15,4 @@ alias du_sort_desc='du -h * | sort -shr'
 alias src='source ~/.bashrc'
 
 alias jv='java -version'                                    # Check java version
+alias a='alias'                                             # List all aliases
