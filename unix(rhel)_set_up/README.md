@@ -1,3 +1,13 @@
+# Change root passwd
+```
+$ sudo passwd root
+Password:
+Changing password for root.
+New password:
+Retype new password:
+
+```
+
 
 # Basic set-up
 ```
