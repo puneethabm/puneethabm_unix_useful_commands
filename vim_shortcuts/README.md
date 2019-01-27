@@ -11,3 +11,12 @@ dG - Delete all lines
 # Ex: go to line number 5
 5gg
 ```
+
+
+
+
+
+# Display line numbers
+```
+:set number
+```
