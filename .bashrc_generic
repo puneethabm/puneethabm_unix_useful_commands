@@ -11,3 +11,5 @@ alias q='exit'                                               # Logout
 
 alias du_sort_asc='du -h * | sort -sh'                       
 alias du_sort_desc='du -h * | sort -shr'
+
+alias src='source ~/.bashrc'
