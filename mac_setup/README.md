@@ -46,5 +46,37 @@ Do you wish to proceed with the installation of Microsoft VSCode? [yes|no]
 # Set JAVA_HOME
 # Instructions in the file ~/.bashrc_mac
 
+```
+
+# Install Scala (sbt)
+```
+brew install sbt@1
+
+brew install scala@2.11
+```
+
+# Search for package
+```
+# Ex: search for 'scala' package
+brew search scala
+```
+
+# Common Stuff - IntelliJ
+```
+1. Project structure not displayed properly
+File -> Project Structure -> Modules -> Select the current project
+
+2. Install below plugins
+- Scala
+- Python
+
+3. Add scala sdk
+Click on any project -> Open Module Settings -> Global Libraries -> Scala SDK -> Download -> Select version "2.11.8"
+
+Click on any project -> Open Module Settings -> SDKs -> Python SDK -> Excisting environment -> Interperter -> (Selecy python path Ex: /usr/local/bin/anaconda3/bin/python3) -> Make available to all projects
+
+4. 
+
+
 
 ```
