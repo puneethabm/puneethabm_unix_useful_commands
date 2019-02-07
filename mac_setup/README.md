@@ -61,6 +61,12 @@ brew install scala@2.11
 brew search scala
 ```
 
+# Info for package
+```
+# Ex: info about 'scala' package
+brew info scala
+```
+
 # Common Stuff - IntelliJ
 ```
 1. Project structure not displayed properly
@@ -76,7 +82,63 @@ Click on any project -> Open Module Settings -> Global Libraries -> Scala SDK ->
 Click on any project -> Open Module Settings -> SDKs -> Python SDK -> Excisting environment -> Interperter -> (Selecy python path Ex: /usr/local/bin/anaconda3/bin/python3) -> Make available to all projects
 
 4. 
+```
 
 
+# AWS - CLI
+```
+$ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
 
+$ unzip awscli-bundle.zip
+
+$ python3 awscli-bundle/install -i /usr/local/bin/aws
+
+# Append AWS installation to PATH
+export PATH=/usr/local/bin/aws/bin:$PATH
+
+
+$ aws configure
+AWS Access Key ID [None]:  <access key>
+AWS Secret Access Key [None]: <secret access key>
+Default region name [None]: eu-west-1
+Default output format [None]:
+
+
+$ vim ~/.aws/credentials
+[default]
+aws_access_key_id = <access key>
+aws_secret_access_key = <secret access key>
+
+```
+
+
+# Maven
+```
+brew install maven
+```
+
+
+# bash json utility
+```
+python3 -m install jq
+```
+
+# MySQL
+```
+brew install mysql
+
+# Location of mysql server -> /usr/local/bin/mysql.server
+mysql.server start --skip-grant-tables
+
+# Set new password
+mysql
+mysql> FLUSH PRIVILEGES;
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'pass1';
+mysql> exit
+
+mysql.server stop
+mysql.server start
+
+# Test Connection
+mysql -u root -p"pass1"
 ```
