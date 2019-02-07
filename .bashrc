@@ -16,3 +16,8 @@ fi
 if [ -f ~/.bashrc_mac ]; then
   . ~/.bashrc_mac
 fi
+
+## Git commands
+if [ -f ~/.bashrc_git ]; then
+  . ~/.bashrc_git
+fi
