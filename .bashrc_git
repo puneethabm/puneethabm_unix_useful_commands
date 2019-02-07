@@ -20,3 +20,42 @@ alais git_checkout_local="git checkout "
 # git checkout -b <remote_branch_name> HEAD
 alais git_checkout_remote="git checkout -b "
 
+
+# Reference:
+# https://jonsuh.com/blog/git-command-line-shortcuts/
+alias git_a='git add'
+alias git_aa='git add .'
+alias git_aaa='git add --all'
+alias git_au='git add --update'
+alias git_b='git branch'
+alias git_bd='git branch --delete '
+alias git_c='git commit'
+alias git_cm='git commit --message'
+alias git_cf='git commit --fixup'
+alias git_co='git checkout'
+alias git_cob='git checkout -b'
+alias git_com='git checkout master'
+alias git_cos='git checkout staging'
+alias git_cod='git checkout develop'
+alias git_d='git diff'
+alias git_da='git diff HEAD'
+alias git_i='git init'
+alias git_lg='git log --graph --oneline --decorate --all'
+alias git_ld='git log --pretty=format:"%h %ad %s" --date=short --all'
+alias git_m='git merge --no-ff'
+alias git_ma='git merge --abort'
+alias git_mc='git merge --continue'
+alias git_p='git pull'
+alias git_pr='git pull --rebase'
+alias git_r='git rebase'
+alias git_s='git status'
+alias git_ss='git status --short'
+alias git_st='git stash'
+alias git_sta='git stash apply'
+alias git_std='git stash drop'
+alias git_stl='git stash list'
+alias git_stp='git stash pop'
+alias git_sts='git stash save'
+
+
+
