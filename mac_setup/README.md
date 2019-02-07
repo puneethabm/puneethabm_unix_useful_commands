@@ -120,7 +120,7 @@ brew install maven
 
 # bash json utility
 ```
-python3 -m install jq
+brew install jq
 ```
 
 # MySQL
