@@ -40,8 +40,6 @@ alias git_cod='git checkout develop'
 alias git_d='git diff'
 alias git_da='git diff HEAD'
 alias git_i='git init'
-alias git_lg='git log --graph --oneline --decorate --all'
-alias git_ld='git log --pretty=format:"%h %ad %s" --date=short --all'
 alias git_m='git merge --no-ff'
 alias git_ma='git merge --abort'
 alias git_mc='git merge --continue'
@@ -56,7 +54,12 @@ alias git_std='git stash drop'
 alias git_stl='git stash list'
 alias git_stp='git stash pop'
 alias git_sts='git stash save'
-
+alias git_lg='git log --graph --oneline --decorate --all'
+alias git_ld='git log --pretty=format:"%h %ad %s" --date=short --all'
+alias git_ls='git log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate'
+alias git_ll='git log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat'
+	
+	
 # Git log find by commit message
 # Ex: $ glf "Add python script"
 function glf() { git log --all --grep="$1"; }
