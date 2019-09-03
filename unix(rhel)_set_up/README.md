@@ -33,3 +33,8 @@ sudo sh Anaconda3-5.0.0.1-Linux-x86_64.sh
 #[no] >>> yes
 
 ```
+
+# Install Mysql
+```
+https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux
+```
