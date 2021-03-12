@@ -11,14 +11,14 @@ alias git_pretty_graph="git log --graph --pretty=format:'%Cred%h%Creset -%C(yell
 # $ git config --global alias.pbmprettyprint "log --pretty=oneline"
 # Execute: $ git pbmprettyprint
 
-git log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+# git log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 
 # Switch local branch
 # git checkout <local_branch_name>
-alais git_checkout_local="git checkout "
+alias git_checkout_local="git checkout "
 
 # git checkout -b <remote_branch_name> HEAD
-alais git_checkout_remote="git checkout -b "
+alias git_checkout_remote="git checkout -b "
 
 
 # Reference:
