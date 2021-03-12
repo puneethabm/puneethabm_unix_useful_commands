@@ -26,3 +26,8 @@ fi
 if [ -f ~/.bashrc_aws ]; then
   . ~/.bashrc_aws
 fi
+
+## Hadoop commands
+if [ -f ~/.bashrc_hadoop ]; then
+  . ~/.bashrc_hadoop
+fi
