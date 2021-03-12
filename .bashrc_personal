@@ -1,0 +1,1 @@
+alias git_commit_personal='git config --global user.name "puneethabm" && git config --global user.email "puneetha.bm14@gmail.com" && git commit --author="puneethabm <puneetha.bm14@gmail.com>" -m '
