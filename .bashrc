@@ -31,3 +31,8 @@ fi
 if [ -f ~/.bashrc_hadoop ]; then
   . ~/.bashrc_hadoop
 fi
+
+## Personal commands
+if [ -f ~/.bashrc_personal ]; then
+  . ~/.bashrc_personal
+fi
