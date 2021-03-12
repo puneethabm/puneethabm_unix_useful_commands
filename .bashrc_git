@@ -24,7 +24,7 @@ alias git_checkout_remote="git checkout -b "
 # https://gist.github.com/johnpolacek/69604a1f6861129ef088
 alias git_curr='git symbolic-ref --short HEAD'
 alias git_clone_all_branches='! git branch -a | sed -n "/\/HEAD /d; /\/master$/d; /remotes/p;" | xargs -L1 git checkout -t'
-alias git_pull_f='git reset --hard HEAD | git pull'
+alias git_pull_f='git reset --hard HEAD | git pull --ff-only'
 
 # Reference:
 # https://jonsuh.com/blog/git-command-line-shortcuts/
