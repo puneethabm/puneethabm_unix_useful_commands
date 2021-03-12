@@ -12,11 +12,6 @@ if [ -f ~/.bashrc_generic ]; then
   . ~/.bashrc_generic
 fi
 
-## MAC specic commands
-if [ -f ~/.bashrc_mac ]; then
-  . ~/.bashrc_mac
-fi
-
 ## Git commands
 if [ -f ~/.bashrc_git ]; then
   . ~/.bashrc_git
@@ -32,7 +27,17 @@ if [ -f ~/.bashrc_hadoop ]; then
   . ~/.bashrc_hadoop
 fi
 
+## MAC specic commands
+if [ -f ~/.bashrc_mac ]; then
+  . ~/.bashrc_mac
+fi
+
 ## Personal commands
 if [ -f ~/.bashrc_personal ]; then
   . ~/.bashrc_personal
+fi
+
+## Mac commands
+if [ -f ~/.bashrc_mac ]; then
+  . ~/.bashrc_mac
 fi
