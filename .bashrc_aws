@@ -1,0 +1,2 @@
+# DynamoDB cli commands
+alias aws_ddb_list='aws dynamodb list-tables'
