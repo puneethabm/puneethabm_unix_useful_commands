@@ -21,3 +21,8 @@ fi
 if [ -f ~/.bashrc_git ]; then
   . ~/.bashrc_git
 fi
+
+## AWS commands
+if [ -f ~/.bashrc_aws ]; then
+  . ~/.bashrc_aws
+fi
