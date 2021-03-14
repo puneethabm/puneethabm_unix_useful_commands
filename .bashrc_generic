@@ -5,7 +5,8 @@ alias ua='unalias -a'                                       # Unalias everything
 
 # Generic Aliases
 # Reference: https://gist.github.com/granthenke/6272026
-alias ll='ls -la'                                            # List all file in long list
+alias ll='ls -l'                                             # List all file in long list excluding hidden files
+alias lla='ls -la'                                           # List all file in long list including hidden files
 alias llt='ls -latr'                                         # List all file in long list format by modification time
 alias c='clear'                                              # Clear Screen
 alias k='clear'                                              # Clear Screen
