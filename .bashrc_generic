@@ -20,3 +20,6 @@ alias src='source ~/.bashrc'
 alias jv='java -version'                                    # Check java version
 
 alias user='echo $USER'                                     # Get current user
+
+alias show_hidden_files='find . -maxdepth 1 -type f -name ".*"'        # Show hidden files
+
