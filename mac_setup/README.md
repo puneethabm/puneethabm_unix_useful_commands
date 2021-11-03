@@ -1,3 +1,7 @@
+# Change Bash Shell
+```
+https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/
+```
 
 # Install Homebrew (https://brew.sh/):
 ```
