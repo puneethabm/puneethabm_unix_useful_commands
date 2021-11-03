@@ -115,6 +115,10 @@ aws_secret_access_key = <secret access key>
 
 ```
 
+# GPG: https://blog.ghostinthemachines.com/2015/03/01/how-to-use-gpg-command-line/
+```
+brew install gpg
+```
 
 # Maven
 ```
