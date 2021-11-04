@@ -131,6 +131,18 @@ brew install maven
 brew install jq
 ```
 
+
+# tree - list the content of directories in a tree-like format
+```
+brew install tree
+```
+
+# watchman - Watchman exists to watch files and record when they actually change. It can also trigger actions (such as rebuilding assets) when matching files change.
+# https://github.com/facebook/watchman
+```
+brew install watchman
+```
+
 # MySQL
 ```
 brew install mysql
