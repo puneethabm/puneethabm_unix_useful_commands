@@ -11,12 +11,12 @@ alias aws_s3_list='aws s3 ls'
 
 ##################################################################
 # SNS cli commands
-alias aws_sns_list='aws sns list-topics | jq -r ‘.Topics[ ] | .TopicArn’'
+alias aws_sns_list='aws sns list-topics | jq -r ".Topics[ ] | .TopicArn"'
 
 
 ##################################################################
 # SQS cli commands
-alias aws_sqs_list='aws sqs list-queues | jq -r ‘.QueueUrls[ ]’'
+alias aws_sqs_list='aws sqs list-queues | jq -r ".QueueUrls[ ]"'
 
 
 ##################################################################
