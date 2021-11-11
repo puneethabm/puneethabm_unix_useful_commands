@@ -1,2 +1,24 @@
 # DynamoDB cli commands
-alias aws_ddb_list='aws dynamodb list-tables'
+alias aws_ddb_list_tables_full='aws dynamodb list-tables'
+
+alias aws_ddb_list_table_names='aws dynamodb list-tables | jq -r .TableNames [ ]'
+
+
+##################################################################
+# S3 cli commands
+alias aws_s3_list='aws s3 ls'
+
+
+##################################################################
+# SNS cli commands
+alias aws_sns_list='aws sns list-topics | jq -r ‘.Topics[ ] | .TopicArn’'
+
+
+##################################################################
+# SQS cli commands
+alias aws_sqs_list='aws sqs list-queues | jq -r ‘.QueueUrls[ ]’'
+
+
+##################################################################
+
+##################################################################
